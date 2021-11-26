@@ -13,7 +13,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar_bitlii_transparent.png" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/cv_icon_square.jpg" alt="my photo" class="avatar no-print" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the _config.yml file -->
@@ -66,34 +66,6 @@
 
       </section>
       <!-- end Experience -->
-      {% endif %}
-
-
-      {% if site.resume_section_education %}
-      <!-- begin Education -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Education</h2>
-        </header>
-
-        {% for education in site.data.education %}
-        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
-          <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
-          <p class="resume-item-copy" itemprop="description">
-            <ul class="resume-item-list">
-              {% for award in education.awards %}
-              <li>{{ award.award }}</li>
-              {% endfor %}
-            </ul>
-
-
-          <p class="resume-item-copy">{{ education.summary }}</p>
-        </div>
-        {% endfor %}
-      </section>
-      <!-- end Education -->
       {% endif %}
 
 
@@ -195,6 +167,36 @@
       <!-- end Interests -->
       {% endif %}
 
+
+      {% if site.resume_section_education %}
+      <!-- begin Education -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Education</h2>
+        </header>
+
+        {% for education in site.data.education %}
+        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
+          <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
+          <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
+          <p class="resume-item-copy" itemprop="description">
+          <ul class="resume-item-list">
+            {% for award in education.awards %}
+            <li>{{ award.award }}</li>
+            {% endfor %}
+          </ul>
+
+
+          <p class="resume-item-copy">{{ education.summary }}</p>
+        </div>
+        {% endfor %}
+      </section>
+      <!-- end Education -->
+      {% endif %}
+
+
+
       {% if site.resume_section_links %}
       <!-- begin Links -->
       <section class="content-section">
@@ -231,10 +233,10 @@
       <!-- end Print Social Links -->
       {% endif %}
 
-      <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
-      </footer>
+<!--      <footer class="page-footer">-->
+<!--        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/ibitly">GitHub</a>.</p>-->
+<!--        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>-->
+<!--      </footer>-->
 
     </div>
 
