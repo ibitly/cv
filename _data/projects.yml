@@ -1,16 +1,41 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+- project: Csc iot project
+  role: Primary Android Developer
+  duration: 2019 &mdash; 2021
+  url: "https://play.google.com/store/apps/details?id=com.csc.cpmobile&hl=en_US&gl=US"
+  description: Csc mobile is an android app for csc operator and csc customer. Following the latest google android practice, extensive use androidx, kotlin, coroutine etc.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: Polarr Image Editor
+  role: Primary Android Developer
+  duration: 2017 &mdash; 2019
+  url: "https://play.google.com/store/apps/details?id=photo.editor.polarr"
+  description: Develop Polarr image editor for android, also develop image editor android sdk for android device vendor.
+
+- project: Internet of Vechical
+  role: Architector and Programmer
+  duration: 2015 &mdash; 2017
+  description: Develop cargo monitor system in android Iot device.
+
+- project: Enterprise Document System
+  role: Architector and Programmer
+  duration: 2015 &mdash; Now
+  description: Develop the document management system, technology include java, spring, mysql, k8s, mq, cloud etc.
+
+- project: Internet of Vechical
+  role: Architector and Programmer
+  duration: 2015 &mdash; 2017
+  description: Develop cargo monitor system in android Iot device.
+
+- project: Samsung Android for Iot
+  role: Architector and Programmer
+  duration: 2011 &mdash; 2015
+  description: Apply advanced Iov related technology with Samsung Android platform.
+
+- project: Android App
+  role: Architector and Programmer
+  url: "https://play.google.com/store/apps/details?id=com.microsoft.xboxone.smartglass&hl=en_US&gl=US"
+  duration: 2009 &mdash; 2015
+  description: AMBS(AT&T Message Backup and Sync) with Samsung Android phone; Microsoft Xbox in Android device.
+# TODO：create a page for all apps link.
