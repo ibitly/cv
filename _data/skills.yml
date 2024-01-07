@@ -1,6 +1,7 @@
 # Skills
-- skill: Android App
-  description: kotlin, java, androidx, hilt&dagger, retrofit, coroutine, rx, unit test.
+- skill: Machine Learning 
+  description: Neural Networks, Deep Learning (DL),  GPT (Generative Pre-trained Transformer)Python, Data Analysis and Visualization, Python, TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Jupyter Notebook, OpenAI API
 
-- skill: Java backend
-  description: Java, Spring, Mysql, K8s, Mq, CI&CD, Cloud etc.
+- skill: Programing Language And Platform
+  description: Python, Java, kotlin, Android.
+
